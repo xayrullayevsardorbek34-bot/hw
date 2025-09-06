@@ -1,0 +1,47 @@
+body {
+  background-color: #225252; /* тёмно-зелёный фон */
+  font-family: Arial, sans-serif;
+  color: black;
+  padding: 40px;
+  margin: 0;
+}
+
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text {
+  background-color: #2c0e0e; /* тёмно-красный фон */
+  color: white;
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.big {
+  border: 6px solid red;
+  padding: 10px;
+  background-color: black; /* бирюзовый фон */
+  display: inline-block;
+  max-width: 800px;
+}
+
+.inner-box {
+  background-color: #1FE8B7;
+  border: 10px solid black;
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.inner-box.second {
+  margin-top: 40px;
+}
